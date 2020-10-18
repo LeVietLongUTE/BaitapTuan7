@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="#0000FF">
+
+        <TextView
+android:layout_marginLeft="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="17dp"
+            android:text="Thư viện nhạc"
+            android:textColor="#fff"
+            android:textSize="25dp"></TextView>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/ic_search_foreground"></ImageView>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/ic_searchimg_foreground"></ImageView>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/ic_caidat_foreground"></ImageView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#CC33CC"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="27dp"
+            android:layout_marginTop="13dp"
+            android:text="Bài Hát"
+            android:textSize="20dp"></TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="31dp"
+            android:layout_marginTop="13dp"
+            android:text="Playlist"
+            android:textSize="20dp"></TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="31dp"
+            android:layout_marginTop="13dp"
+            android:text="Nghệ Sĩ"
+            android:textSize="20dp"></TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="13dp"
+            android:text="Album"
+            android:textSize="20dp"></TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#D7D7D7">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="15dp"
+            android:src="@drawable/ic_play_foreground"></ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            android:text="Nghe Ngẫu Nhiên"
+            android:textColor="#fff"
+            android:textSize="25dp"></TextView>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/ic_repeat_foreground"></ImageView>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:src="@drawable/ic_create_foreground"
+
+            ></ImageView>
+
+    </LinearLayout>
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:background="#FFFFCC">
+    <ImageView
+        android:layout_width="89dp"
+        android:layout_height="60dp"
+        android:id="@+id/img"
+        android:background="@color/colorAccent"
+        android:src="@drawable/icon2"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/ten"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tình Anh"
+            android:textColor="#000"
+            android:layout_marginLeft="30dp"
+            android:fontFamily="serif-monospace"
+            android:textSize="23dp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/tencasi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Đình Dũng"
+            android:textColor="#000"
+            android:layout_marginLeft="30dp"
+            android:textSize="18dp"
+            android:textStyle="italic" />
+    </LinearLayout>
+</LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#000"></View>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:background="#FFFFCC">
+        <ImageView
+            android:layout_width="89dp"
+            android:layout_height="60dp"
+            android:id="@+id/img1"
+            android:background="@color/colorAccent"
+            android:src="@drawable/icon2"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/ten1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tình Anh"
+                android:textColor="#000"
+                android:layout_marginLeft="30dp"
+                android:fontFamily="serif-monospace"
+                android:textSize="23dp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/tencasi1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Đình Dũng"
+                android:textColor="#000"
+                android:layout_marginLeft="30dp"
+                android:textSize="18dp"
+                android:textStyle="italic" />
+        </LinearLayout>
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#000"></View>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:background="#FFFFCC">
+        <ImageView
+            android:layout_width="89dp"
+            android:layout_height="60dp"
+            android:id="@+id/img3"
+            android:background="@color/colorAccent"
+            android:src="@drawable/icon2"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/ten3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tình Anh"
+                android:textColor="#000"
+                android:layout_marginLeft="30dp"
+                android:fontFamily="serif-monospace"
+                android:textSize="23dp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/tencasi3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Đình Dũng"
+                android:textColor="#000"
+                android:layout_marginLeft="30dp"
+                android:textSize="18dp"
+                android:textStyle="italic" />
+        </LinearLayout>
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#000"></View>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:background="#FFFFCC">
+        <ImageView
+            android:layout_width="89dp"
+            android:layout_height="60dp"
+            android:id="@+id/img4"
+            android:background="@color/colorAccent"
+            android:src="@drawable/icon2"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/ten4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tình Anh"
+                android:textColor="#000"
+                android:layout_marginLeft="30dp"
+                android:fontFamily="serif-monospace"
+                android:textSize="23dp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/tencasi4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Đình Dũng"
+                android:textColor="#000"
+                android:layout_marginLeft="30dp"
+                android:textSize="18dp"
+                android:textStyle="italic" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

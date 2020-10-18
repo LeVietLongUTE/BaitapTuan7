@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="SIGN UP"
+    android:textSize="35dp"
+    android:textColor="#660099"
+    android:textStyle="bold"
+    android:layout_marginTop="20dp"
+    android:gravity="center"/>
+
+    <LinearLayout
+        android:layout_marginTop="-30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+        <ImageView
+            android:layout_weight="1"
+            android:id="@+id/img1"
+            android:layout_width="200dp"
+            android:layout_height="150dp"
+            android:src="@drawable/is"
+            />
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-40dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lê Việt Long"
+            android:textSize="30dp"
+            android:gravity="center"
+            android:textColor="#FF1493"></TextView>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Nhập tên"
+            android:textSize="25dp"
+            android:id="@+id/name"
+            android:paddingLeft="20dp"
+            android:inputType="textEmailAddress"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/nhapedit"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:textColor="#000000"
+            android:background="#fff"
+            android:layout_marginLeft="25dp"
+            android:textStyle="bold"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:textSize="25dp"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        >
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="longle@gmail.com"
+            android:textSize="25dp"
+            android:id="@+id/email"
+            android:paddingLeft="20dp"
+            android:inputType="textEmailAddress"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/nhapedit"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email"
+            android:textColor="#000000"
+            android:background="#fff"
+            android:layout_marginLeft="25dp"
+            android:textStyle="bold"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:textSize="25dp"/>
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        >
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textSize="25dp"
+            android:paddingLeft="20dp"
+            android:hint="*********************"
+            android:inputType="textPassword"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/nhapedit"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Password"
+            android:textColor="#000000"
+            android:background="#fff"
+            android:layout_marginLeft="25dp"
+            android:textStyle="bold"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+
+            android:textSize="25dp"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_mat"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="30dp"
+            android:paddingRight="10dp"
+
+            />
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+        <CheckBox
+            android:layout_marginLeft="30dp"
+            android:id="@+id/check"
+            android:checked="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/check"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:textSize="20dp"
+            android:text="i agree all statements"/>
+    </RelativeLayout>
+    <Button
+        android:layout_gravity="center"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/sign_up"
+        android:text="Sign Up"
+        android:textColor="#F9F400"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:id="@+id/buttom_sign"
+        android:layout_marginTop="15dp"></Button>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="You alreadly have an account?"
+            android:textSize="20dp"
+            android:layout_marginLeft="25dp"
+            android:textColor="#000"></TextView>
+        <TextView
+            android:id="@+id/login2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Login"
+            android:layout_marginLeft="10dp"
+            android:textSize="20dp"
+            android:textColor="#F3C009"></TextView>
+    </LinearLayout>
+
+</LinearLayout>

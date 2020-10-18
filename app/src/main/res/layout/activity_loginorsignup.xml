@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+
+    android:background="@drawable/backgroud"
+    android:layout_height="match_parent">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:layout_alignParentBottom="true">
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="Sign In With FaceBook"
+        android:textSize="20dp"
+        android:layout_marginLeft="40dp"
+        android:drawableLeft="@mipmap/ic_fabook"
+        android:layout_marginRight="40dp"
+        android:background="@drawable/backg_fa"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp">
+        <Button
+            android:id="@+id/lognin"
+            android:layout_weight="1"
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:text="Logn In"
+            android:textColor="#ff4500"
+            android:background="#2dbe60"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="20dp"
+            />
+        <Button
+            android:id="@+id/signup"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:background="#C1FFC1"
+            android:textSize="25dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginLeft="20dp"
+            android:textColor="#e12828"
+            android:text="SIGN UP"/>
+    </LinearLayout>
+</RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/img4"></ImageView>
+        <TextView
+            android:gravity="center"
+            android:layout_below="@+id/image"
+            android:textSize="30dp"
+            android:textColor="#000"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lê Việt Long"></TextView>
+    </RelativeLayout>
+
+</RelativeLayout>
